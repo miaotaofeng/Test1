@@ -11,8 +11,9 @@ public class A {
         // MySQL的JDBC URL编写方式：jdbc:mysql://主机名称：连接端口/数据库的名称?参数=值
         // 避免中文乱码要指定useUnicode和characterEncoding
         // 执行数据库操作之前要在数据库管理系统上创建一个数据库，名字自己定，
-        // 下面语句之前就要先创建javademo数据库
-        System.out.println("终于运行了···········");
+        // 下面语句之前就要先创建javademo数据库111111
+        System.out.println("终于运行了·········");
+        System.out.println("我是来打酱油的·········");
 
         String url = "jdbc:mysql://localhost:3306/miao?user=root&password=123&useUnicode=true&characterEncoding=UTF8";
         try {
